@@ -22,5 +22,5 @@
 
 export const environment = {
   production: true,
-  REST_API_URL: 'http://http://amcdocker.costaisa.org:9966/petclinic/api/'
+  REST_API_URL: 'http://amcdocker.costaisa.org:9966/petclinic/api/'
 };
