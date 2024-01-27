@@ -21,7 +21,11 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
-export const environment = {
-  production: false,
-  REST_API_URL: 'http://amcdocker.costaisa.org:9966/petclinic/api/'
-};
+//export const environment = {
+//  production: false,
+//  REST_API_URL: 'http://amcdocker.costaisa.org:9966/petclinic/api/'
+//};
+
+declare const env: any;
+export const environment = Object.assign({production: false}, env);
+

@@ -20,7 +20,11 @@
  * @author Vitaliy Fedoriv
  */
 
-export const environment = {
-  production: true,
-  REST_API_URL: 'http://amcdocker.costaisa.org:9966/petclinic/api/'
-};
+//export const environment = {
+//  production: true,
+//  REST_API_URL: 'http://amcdocker.costaisa.org:9966/petclinic/api/'
+//};
+
+declare const env: any;
+export const environment = Object.assign({production: true}, env);
+
