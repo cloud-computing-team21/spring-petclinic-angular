@@ -2,6 +2,8 @@
 
 [![Build Status](https://github.com/spring-petclinic/spring-petclinic-angular/actions/workflows/angular-ci.yml/badge.svg)](https://github.com/spring-petclinic/spring-petclinic-angular/actions/workflows/angular-ci.yml)
 
+Pero funciona o no????
+
 ## Angular frontend for Spring Petclinic
 
 Warning: **client only**. 
