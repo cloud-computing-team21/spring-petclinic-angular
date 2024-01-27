@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: jbravo/spring-petclinic-angular:0.1.0
+          tags: jbravo/spring-petclinic-angular:0.2.0
