@@ -1,14 +1,7 @@
 name: Angular CI
 
 on:
-  push:
-    branches:
-      - master
-      - 'feature/**'
-  pull_request:
-    branches:
-      - master
-      - 'feature/**'
+  workflow_dispatch:
 
 jobs:
   build:
